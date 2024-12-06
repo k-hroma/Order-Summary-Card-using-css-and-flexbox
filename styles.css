@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Red Hat Display", serif;
+}
+
+body {
+  background-image: url(./assets/pattern-background-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  margin: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+main {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  width: 450px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-img img {
+  width: 100%;
+  width: 450px;
+  height: 220;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.container-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 354px;
+  height: 442px;
+}
+
+.container-card h1 {
+  margin-top: 40px;
+  margin-bottom: 21px;
+  font-size: 28px;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.container-card p {
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 26px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.container-plan {
+  background-color: hsl(225, 100%, 98%);
+  width: 354px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+  border-radius: 10px;
+
+}
+
+.container-plan img {
+  width: 47px;
+  height: 47px;
+  padding-left: 24px;
+  margin-right: 16px;
+}
+
+.container-plan ul {
+  list-style: none;
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 90px;
+}
+
+.container-plan ul li:first-child {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.container-plan a {
+  font-weight: 700;
+  font-size: 14px;
+  color: #4f39e6;
+
+}
+
+.container-plan a:active {
+  text-decoration: none;
+}
+
+.container-btn {
+  display: flex;
+  flex-direction: column;
+  width: 354px;
+  gap: 20px;
+}
+
+.container-btn button:first-child {
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  color: white;
+  height: 50px;
+  font-weight: 900;
+  border-width: 0.5px;
+  cursor: pointer;
+  box-shadow: 3px 10px 15px 1px rgba(72, 97, 209, 0.3);
+}
+
+.container-btn button:first-child:hover {
+  background-color: hsl(245, 65%, 63%);
+  ;
+}
+
+.container-btn> :nth-child(2) {
+  background-color: white;
+  border-radius: 10px;
+  height: 50px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 900;
+  border-style: none;
+  cursor: pointer;
+}
+
+.container-btn> :nth-child(2):hover {
+  color: hsl(223, 47%, 23%);
+}
