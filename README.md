@@ -24,12 +24,12 @@ Users should be able to:
 
 ## Screenshot
 
-![Order summary card]()
+![Order summary card](./assets/Screenshot.png)
 
 ## Links
 
-- Solution URL: []
-- Live Site URL: []
+- Solution URL: [https://github.com/k-hroma/Order-Summary-Card-using-css-and-flexbox.git]
+- Live Site URL: [https://k-hroma.github.io/Order-Summary-Card-using-css-and-flexbox/]
 
 
 ## Built with
